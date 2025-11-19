@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="hero-bg">
         <div className="row align-items-center">
           <div className="col-md-6 text-md-start text-center">
-            <h1 className="display-5 fw-bold hero-title">Hi, I'm Chloe</h1>
+            <h1 className="display-5 fw-bold hero-title">Hi, I'm Jaycee</h1>
             <p className="lead text-muted">Front-end developer — building beautiful interfaces for girls in tech.</p>
             <div className="mt-4 d-flex justify-content-center justify-content-md-start gap-3">
               <a className="btn btn-outline-primary btn-lg" href="#projects">View my work</a>
@@ -23,7 +23,7 @@ export default function Hero() {
                 </linearGradient>
               </defs>
             </svg>
-            <img className="profile-img" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=0b8d3a0927b35d4f6bf7fef2c2a3b2d7" alt="profile" />
+            <img className="profile-img" src="https://static01.nyt.com/images/2020/01/28/multimedia/28xp-memekid3/28cp-memekid3-superJumbo.jpg" alt="profile" />
           </div>
         </div>
       </div>

@@ -3,10 +3,10 @@ import React from 'react'
 const sampleProjects = [
   {
     id: 1,
-    title: 'Project Title',
-    description: 'A short description of this project goes here.',
-    tags: ['React', 'JavaScript'],
-    link: '#'
+    title: 'Student Record Management System',
+    description: 'Student Record Management System - A CRUD applcation for managing student records efficiently.',
+    tags: ['JavaScript', 'CSS', 'HTML',],
+    link: 'crud-jci.vercel.app'
   },
   {
     id: 2,

@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="site-footer py-2 mt-3">
       <div className="container text-center small">
-        <div style={{fontSize:'0.9rem'}}>© {new Date().getFullYear()} Chloe — Crafted with ❤️</div>
+        <div style={{fontSize:'0.9rem'}}>© {new Date().getFullYear()} Jaycee — Crafted with ❤️</div>
         <div className="mt-2 d-flex justify-content-center align-items-center gap-2">
           <a className="social-badge small-badge" href="#" aria-label="GitHub" title="GitHub">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
