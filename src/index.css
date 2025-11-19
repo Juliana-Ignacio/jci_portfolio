@@ -1,0 +1,111 @@
+:root{
+  --accent:#ff6bcb;
+  --accent-2:#7c4dff;
+  --bg-1: linear-gradient(135deg, rgba(255,107,203,0.12), rgba(124,77,255,0.08));
+  --glass: rgba(255,255,255,0.06);
+}
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #fbfbfd; /* very light neutral background for better contrast */
+  color: #111; /* consistent primary text color */
+}
+.profile-img{
+  width:220px;
+  height:220px;
+  object-fit:cover;
+  border-radius:50%;
+  box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Make profile image larger on medium+ screens for stronger presence */
+@media(min-width: 768px){
+  .profile-img{
+    width:320px;
+    height:320px;
+    box-shadow:0 20px 50px rgba(12,10,50,0.12);
+  }
+}
+
+/* Hero background and decorative dots */
+.hero-bg{
+  background: radial-gradient(circle at 10% 20%, rgba(255,107,203,0.12), transparent 8%),
+              radial-gradient(circle at 90% 80%, rgba(124,77,255,0.08), transparent 8%),
+              linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
+  border-radius: 12px;
+  padding: 2.5rem;
+}
+
+.hero-title{
+  color: #111;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* welcome/description removed from Hero; styles kept elsewhere if needed */
+
+.tech-badge{
+  display:inline-block;
+  padding:0.25rem 0.6rem;
+  margin-right:0.4rem;
+  margin-top:0.4rem;
+  font-size:0.8rem;
+  border-radius:999px;
+  background: linear-gradient(90deg,var(--accent),var(--accent-2));
+  color:#fff;
+  box-shadow:0 6px 18px rgba(124,77,255,0.08);
+}
+
+.card.tech-card{
+  border: none;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+.card.tech-card:hover{
+  transform: translateY(-6px) rotate(-0.3deg);
+  box-shadow: 0 18px 40px rgba(12,10,50,0.10);
+}
+
+/* ensure cards use a consistent background and subtle border */
+.card{ background: #fff; border: 1px solid rgba(11,10,15,0.03); }
+
+.nav-accent{
+  background: linear-gradient(90deg, rgba(255,107,203,0.08), rgba(124,77,255,0.06));
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(11,10,15,0.03);
+}
+
+/* navbar link colors for readable contrast */
+.navbar .navbar-brand, .navbar .nav-link{ color: rgba(17,17,17,0.9); }
+.navbar .nav-link:hover{ color: var(--accent-2); }
+
+/* subtle floating animation for decorative SVGs */
+@keyframes floaty { 0%{ transform: translateY(0);} 50%{ transform: translateY(-6px);} 100%{ transform: translateY(0);} }
+.floaty{ animation: floaty 6s ease-in-out infinite; }
+
+/* Contact form theming */
+/* contact-specific styles removed to revert to previous simple design */
+
+/* Footer social badges */
+.social-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  border-radius:10px;
+  color:#fff;
+  background: linear-gradient(90deg,var(--accent),var(--accent-2));
+  box-shadow: 0 8px 18px rgba(124,77,255,0.10);
+  transition: transform 160ms ease, box-shadow 160ms ease, opacity 140ms ease;
+}
+.social-badge svg{ color: #fff; }
+.social-badge:hover{ transform: translateY(-3px) scale(1.02); box-shadow: 0 14px 36px rgba(124,77,255,0.12); opacity:0.98 }
+.social-badge:active{ transform: translateY(-1px) }
+
+/* smaller variant used in footer */
+.social-badge.small-badge{ width:36px; height:36px; border-radius:8px; }
+
+/* footer base style to better match the site */
+.site-footer{ background: transparent; color: rgba(17,17,17,0.8); }
+.site-footer a{ color: rgba(17,17,17,0.85); }
