@@ -3,10 +3,10 @@ import React from 'react'
 const sampleProjects = [
   {
     id: 1,
-    title: 'Student Record Management System',
-    description: 'Student Record Management System - A CRUD applcation for managing student records efficiently.',
+    title: 'Gourmet Table PH',
+    description: 'Gourmet Table PH is a modern, fully responsive restaurant reservation system designed to mimic leading platforms like OpenTable. Built entirely with HTML, CSS, and JavaScript, this project showcases front-end development skills, including UI/UX design, dynamic DOM manipulation, and state management without relying on backend technologies.',
     tags: ['JavaScript', 'CSS', 'HTML',],
-    link: 'crud-jci.vercel.app'
+    link: 'http://127.0.0.1:5500/crud-jci/crud.html'
   },
   {
     id: 2,
