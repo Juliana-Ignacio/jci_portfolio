@@ -6,7 +6,7 @@ const sampleProjects = [
     title: 'Gourmet Table PH',
     description: 'Gourmet Table PH is a modern, fully responsive restaurant reservation system designed to mimic leading platforms like OpenTable. Built entirely with HTML, CSS, and JavaScript, this project showcases front-end development skills, including UI/UX design, dynamic DOM manipulation, and state management without relying on backend technologies.',
     tags: ['JavaScript', 'CSS', 'HTML',],
-    link: 'crud-new-ten.vercel.app'
+    link: 'https://crud-new-ten.vercel.app/'
   },
   {
     id: 2,
