@@ -5,8 +5,8 @@ const sampleProjects = [
     id: 1,
     title: 'Gourmet Table PH',
     description: 'Gourmet Table PH is a modern, fully responsive restaurant reservation system designed to mimic leading platforms like OpenTable. Built entirely with HTML, CSS, and JavaScript, this project showcases front-end development skills, including UI/UX design, dynamic DOM manipulation, and state management without relying on backend technologies.',
-    tags: ['JavaScript', 'CSS', 'HTML',],
-    link: 'http://crud-new-ten.vercel.app
+    tags: ['JavaScript', 'CSS', 'HTML'],
+    link: 'https://crud-new-ten.vercel.app'
   },
   {
     id: 2,
@@ -28,6 +28,7 @@ export default function Projects() {
               <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{p.title}</h5>
                 <p className="card-text flex-grow-1">{p.description || p.desc}</p>
+
                 <div className="mt-3">
                   {Array.isArray(p.tags) ? (
                     p.tags.map(t => (
@@ -40,6 +41,7 @@ export default function Projects() {
                     </>
                   )}
                 </div>
+
                 <div className="mt-3">
                   <a
                     className="btn btn-outline-primary"
@@ -49,6 +51,7 @@ export default function Projects() {
                     View Project
                   </a>
                 </div>
+
               </div>
             </div>
           </div>
