@@ -9,18 +9,21 @@ const certificates = [
     title: 'Data Analytics Essentials',
     description: 'A certification earned for completing the Data Analytics Essentials course.',
     image: DataAnalyticsEssentials,
+    link: 'https://www.credly.com/badges/4648c576-a5f4-45cb-a3a7-4bcc88d2f60c/public_url'
   },
   {
     id: 2,
     title: 'Network Support and Security',
     description: 'Certification for completing Network Support and Security course.',
     image: NetworkSupportandSecurity,
+    link: 'https://www.credly.com/badges/ec9d72d4-a828-40a5-91dd-911188c884cc/public_url'
   },
   {
     id: 3,
     title: 'Introduction to Data Science',
     description: 'Certificate awarded for Introduction to Data Science course completion.',
     image: IntrotoDataScience,
+    link: 'https://www.credly.com/badges/e5a0996b-1608-4fc5-87c8-622d5c338c6d/public_url'
   }
 ]
 
@@ -34,12 +37,15 @@ export default function Certificates() {
           <div key={cert.id} className="col-md-4">
             <div className="card h-100 shadow-sm tech-card">
 
-              <img
-                src={cert.image}
-                alt={cert.title}
-                className="card-img-top"
-                style={{ height: '200px', objectFit: 'cover' }}
-              />
+              {/* Clicking the image can also open the Credly page */}
+              <a href={cert.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={cert.image}
+                  alt={cert.title}
+                  className="card-img-top"
+                  style={{ height: '200px', objectFit: 'cover', cursor: 'pointer' }}
+                />
+              </a>
 
               <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{cert.title}</h5>
@@ -49,7 +55,7 @@ export default function Certificates() {
                 <div className="mt-3">
                   <a
                     className="btn btn-outline-primary"
-                    href={cert.image}
+                    href={cert.link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
