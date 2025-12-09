@@ -18,7 +18,7 @@ const sampleProjects = [
   {
     id: 3,
     title: 'Recipe Sharing Website (Web Platform',
-    description: 'A user-friendly recipe sharing platform where users can browse, upload, and save their favorite dishes.',
+    description: 'A user-friendly recipe sharing platform that has a database using appwrite where users can browse, upload, and save their favorite dishes.',
     tags: ['React', 'JavaScript', 'CSS'],
     link: 'https://recipe-app-umber-five.vercel.app'
   },
