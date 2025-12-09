@@ -11,21 +11,26 @@ const sampleProjects = [
   {
     id: 2,
     title: 'CRUD App',
-    description: 'A full online booking system for a aesthetic clinic.',
+    description: 'A full online booking system for an aesthetic clinic.',
     tags: ['HTML', 'CSS'],
     link: 'https://appetize.io/embed/b_clf3yzcnyyg5af25nlkyh7d7ty?device=pixel9pro&launchUrl=exp%3A%2F%2Fu.expo.dev%2F933fd9c0-1666-11e7-afca-d980795c5824%3Fruntime-version%3Dexposdk%253A54.0.0%26channel-name%3Dproduction%26snack%3D%2540juliana-ignacio%252F747317%26snack-channel%3DKTh8ApvOwe&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D&appearance=light&deviceColor=black&scale=auto&orientation=portrait&centered=both'
   },
+  {
+    id: 3,
+    title: 'Recipe Sharing Website',
+    description: 'A user-friendly recipe sharing platform where users can browse, upload, and save their favorite dishes. Built with a clean UI and responsive layout, this project showcases front-end styling, component reuse, and dynamic rendering.',
+    tags: ['React', 'JavaScript', 'CSS'],
+    link: 'https://recipe-app-umber-five.vercel.app'
+  },
+  {
+    id: 4,
+    title: 'Recipe Sharing Mobile App',
+    description: 'A mobile app for sharing and discovering recipes. Users can browse, upload, and save their favorite recipes directly from their phones. Built with React Native, this project highlights mobile UI design, responsive layouts, and interactive user experience.',
+    tags: ['React Native', 'JavaScript', 'Mobile'],
+    link: 'https://appetize.io/embed/b_clf3yzcnyyg5af25nlkyh7d7ty?device=pixel9pro&launchUrl=exp%3A%2F%2Fu.expo.dev%2F933fd9c0-1666-11e7-afca-d980795c5824%3Fruntime-version%3Dexposdk%253A54.0.0%26channel-name%3Dproduction%26snack%3D%2540juliana-ignacio%252F6971cf%26snack-channel%3DkOLPIo4VRc&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D&appearance=light&deviceColor=black&scale=auto&orientation=portrait&centered=both'
+  }
+];
 
-{
-  id: 3,
-  title: 'Recipe Sharing Website',
-  description:
-    'A user-friendly recipe sharing platform where users can browse, upload, and save their favorite dishes. Built with a clean UI and responsive layout, this project showcases front-end styling, component reuse, and dynamic rendering.',
-  tags: ['React', 'JavaScript', 'CSS'],
-  link: 'https://recipe-app-umber-five.vercel.app'
-}
-
-]
 
 export default function Projects() {
   return (
