@@ -24,6 +24,13 @@ const certificates = [
     description: 'Certificate awarded for Introduction to Data Science course completion.',
     image: IntrotoDataScience,
     link: 'https://www.credly.com/badges/e5a0996b-1608-4fc5-87c8-622d5c338c6d/public_url'
+  },
+    {
+    id: 4,
+    title: 'JavaScript Essentials 2',
+    description: 'A certification erned for completing the JavaScript Essentials 2',
+    image: IntrotoDataScience,
+    link: 'https://www.credly.com/badges/77bfc6ed-1b1c-44f7-9270-47a053802dae/public_url'
   }
 ]
 
