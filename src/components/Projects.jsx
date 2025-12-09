@@ -10,8 +10,8 @@ const sampleProjects = [
   },
   {
     id: 2,
-    title: 'New Project',
-    description: 'Another example project to show layout. Replace with your own.',
+    title: 'CRUD App',
+    description: 'A full online booking system for a aesthetic clinic.',
     tags: ['HTML', 'CSS'],
     link: 'https://appetize.io/embed/b_clf3yzcnyyg5af25nlkyh7d7ty?device=pixel9pro&launchUrl=exp%3A%2F%2Fu.expo.dev%2F933fd9c0-1666-11e7-afca-d980795c5824%3Fruntime-version%3Dexposdk%253A54.0.0%26channel-name%3Dproduction%26snack%3D%2540juliana-ignacio%252F747317%26snack-channel%3DKTh8ApvOwe&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D&appearance=light&deviceColor=black&scale=auto&orientation=portrait&centered=both'
   },
