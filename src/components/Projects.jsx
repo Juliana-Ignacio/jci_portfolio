@@ -28,6 +28,13 @@ const sampleProjects = [
     description: 'A mobile app for sharing and discovering recipes. Users can browse, upload, and save their favorite recipes directly from their phones. Built with React Native, this project highlights mobile UI design, responsive layouts, and interactive user experience.',
     tags: ['React Native', 'JavaScript', 'Mobile'],
     link: 'https://appetize.io/embed/b_clf3yzcnyyg5af25nlkyh7d7ty?device=pixel9pro&launchUrl=exp%3A%2F%2Fu.expo.dev%2F933fd9c0-1666-11e7-afca-d980795c5824%3Fruntime-version%3Dexposdk%253A54.0.0%26channel-name%3Dproduction%26snack%3D%2540juliana-ignacio%252F6971cf%26snack-channel%3DkOLPIo4VRc&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D&appearance=light&deviceColor=black&scale=auto&orientation=portrait&centered=both'
+  },
+    {
+    id: 5,
+    title: 'Admin Panel',
+    description: 'This admin page is a control panel for managing system data, users, and operations. It provides a simple interface for monitoring and controlling key features, with fast and reliable performance through Vercel.',
+    tags: ['React Native', 'JavaScript', 'Mobile'],
+    link: 'https://user-flow-p2wg.vercel.app/admin'
   }
 ];
 
